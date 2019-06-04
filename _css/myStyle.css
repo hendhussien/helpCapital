@@ -1,0 +1,482 @@
+/*# */
+/*===================
+    General formats
+=====================*/
+
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 3.5rem;
+}
+.container{
+/*    background-color: #000;*/
+}
+/*====================
+       nav format
+======================*/
+
+
+/*==================
+    Header format
+=====================*/
+
+#banner {
+    background-image: url(../_imgs/header.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*    background-attachment: fixed;*/
+    height: 925px;
+    width: 100%;
+}
+
+.small,
+small {
+    font-size: 50%;
+
+}
+
+/*====================
+    clients format
+=======================*/
+
+#clients {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+#clients p {
+    font-size: 1.6em;
+}
+.clientPic{
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+.clientPic:hover{
+    transform: scale(1.1, 1.1);
+}
+
+/*====================
+    Help format
+=======================*/
+
+#help {
+    background-image: url("../_imgs/cloudsPg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*    background-attachment: fixed;*/
+    width: 100%;
+    height: 730px;
+}
+
+#help h1 {
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.howHelp {
+    margin-top: 65px;
+    margin-left: 23%;
+}
+
+.helpPara {
+    margin-top: 135px;
+    text-align: center;
+}
+
+/*===================
+    lamp format
+=====================*/
+#lamp {
+    margin-bottom: 100px;
+}
+
+.marginTop {
+    margin-top: -240px
+}
+#lamp  h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.oneTwo{
+    margin-left: 5%;
+}
+
+/*===================
+    mission format
+======================*/
+#mission {
+    background-image: url("../_imgs/arrowBg01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+
+.wholeMission h1 {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.wholeMission p {
+    padding-top: 20px;
+}
+
+/*====================
+    lets Talkformat
+=======================*/
+#letsTalk {
+    background-image: url("../_imgs/talk.png");
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+}
+
+.WholeTalk {
+    padding-top: 115px;
+    text-align: center;
+}
+
+.WholeTalk h1 {
+    font-size: 3.5rem;
+    text-transform: capitalize;
+    padding-bottom: 50px;
+}
+
+.WholeTalk p {
+    font-size: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+
+.WholeTalk .btn {
+    background-color: #F69D35;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 1.6rem;
+}
+
+/*======================
+    contacts format
+========================*/
+#contacts {
+    background-image: url("../_imgs/RectangleBlue.png");
+    /*    background-image: url("../_imgs/mail.png");*/
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+}
+
+#contacts h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 3.5rem;
+    text-transform: capitalize;
+}
+
+#contacts input,
+#contacts textarea {
+    margin-bottom: 20px;
+    border: 1px solid #28a745;
+    background-color: #F2F2F2;
+}
+
+#contacts .btn {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+/*========================
+    footer format
+============================*/
+footer {
+    text-align: center;
+    background-color: #F8F9FA;
+    padding: 10px 0;
+    font-size: 1.3rem;
+}
+
+
+/*=============================
+    media query format
+=================================*/
+@media (min-width: 768px) {
+    .head {
+        margin-top: 400px;
+    }
+
+    #clients .clientPic {
+        width: 264px;
+        height: 264px;
+        ;
+    }
+
+    #clients .circleNumber {
+        width: 80px;
+        ;
+        height: 80px;
+        ;
+    }
+
+}
+
+@media (min-width: 992px){
+    .howHelp {
+        margin-top: 20px;
+        margin-left: 25%;
+    }
+    .helpPara {
+        margin-top: 95px;
+        text-align: center;
+    }
+}
+@media (min-width: 1200px){
+    #help {
+        height: 1000px;
+    }
+    .howHelp {
+        margin-top: 105px;
+        margin-left: 21%;
+    }
+    .helpPara {
+        margin-top: 200px;
+        text-align: center;
+    }
+}
+@media (min-width: 1440px){
+    .howHelp {
+        margin-top: 90px;
+        margin-left: 21%;
+    }
+}
+@media (min-width: 1580px){
+    .howHelp {
+        margin-top: 75px;
+        margin-left: 18%;
+    }
+    .helpPara {
+        margin-top: 220px;
+        text-align: center;
+    }
+}
+@media (min-width: 1720px){
+    .howHelp {
+        margin-top: 48px;
+        margin-left: 15%;
+    }
+    .helpPara {
+        margin-top: 240px;
+        text-align: center;
+    }
+}
+@media (min-width: 1915px){
+    .howHelp {
+        margin-top: 33px;
+        margin-left: 11%;
+    }
+}
+
+
+
+@media (max-width: 991px) {
+    h1{
+        font-size: 2.5rem;
+    }
+    #clients .clientPic {
+        width: 132px;
+        height: 132px;
+    }
+
+    #clients .circleNumber {
+        width: 60px;
+        height: 60px;
+    }
+
+    #clients p {
+        font-size: 1.2em
+    }
+    .howHelp {
+        margin-top: 65px;
+        margin-left: 15%;
+        }
+
+    .mainLamp {
+        display: none;
+    }
+
+    .marginTop {
+        margin-top: 30px;
+    }
+
+    .oneTwo {
+        width: 440px
+    }
+
+    #mission .offset-sm-3 {
+        margin-left: 23%;
+    }
+
+    .oneTwoWhite {
+        width: 66px;
+        height: 66px
+    }
+
+    .longDots {
+        width: 349px;
+    }
+    .WholeTalk p {
+        font-size: 1.3rem;
+        margin-bottom: 1.6rem;
+    }
+    #letsTalk h4{
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .logoImg {
+        width: 20%;
+    }
+
+    #banner {
+        height: 300px;
+    }
+
+    .head {
+        margin-top: 50px;
+    }
+    #banner .col-md-6 {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    #help,
+    #banner {
+        background-image: url("../_imgs/RectangleBlue.png");
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+    }
+
+    .howHelp {
+        margin-top: 0px;
+        margin-left: 0;
+    }
+
+    .helpPara {
+        margin-top: 1.50em
+    }
+
+    #mission {
+        background-image: none;
+        background-color: #F69D35;
+        height: 420px;
+    }
+
+    #mission .offset-sm-3 {
+        margin-left: 10%;
+    }
+
+    .oneTwoWhite {
+        width: 46px;
+        height: 46px
+    }
+
+    .longDots {
+        width: 345px;
+    }
+
+    .wholeMission h1 {
+        margin-top: 50px;
+        margin-bottom: 66px;
+    }
+
+    #letsTalk {
+        background-image: none;
+    }
+
+    #contacts {
+        height: 600px;
+    }
+
+    #contacts h1 {
+        font-size: 2rem;
+    }
+
+    .contactForm {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .formParagraph {
+        display: none;
+    }
+
+}
+
+@media (max-width: 576px) {
+     h1, .WholeTalk h1{
+        font-size: 2rem;
+    }
+    h3,h4 {
+        font-size: 1.2rem;
+    }
+    p{
+        font-size: .75rem
+    }
+    p, #clients p, .WholeTalk p{
+        font-size: 1rem
+    }
+    #clients .clientPic {
+        width: 100px;
+        height: 100px;
+    }
+    #clients .circleNumber {
+        width: 40px;
+        height: 40px;
+        }
+    .helpPara{
+        flex: 100%;
+        max-width: 100%;
+        margin-left: 3%;
+        text-align: left;
+    }
+    #mission {
+        height: 300px;
+    }
+
+    #mission .offset-sm-3 {
+        margin-left: 0%;
+    }
+
+    .oneTwo {
+        display: none;
+    }
+
+    .longDots,
+    .oneTwoWhite {
+        display: none;
+    }
+
+    .wholeMission h1 {
+        margin-top: 42px;
+        margin-bottom: 39px;
+        text-align: center;
+    }
+    #letsTalk {
+        height: 500px;
+    }
+
+    .WholeTalk {
+        padding-top: 45px;
+        text-align: center;
+    }
+}
