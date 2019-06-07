@@ -24,7 +24,7 @@ h1{
 =====================*/
 
 #banner {
-    background-image: url(../_imgs/header.png);
+    background-image: url(../imgs/header.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -66,7 +66,7 @@ small {
 =======================*/
 
 #help {
-    background-image: url("../_imgs/cloudsPg.png");
+    background-image: url("../imgs/cloudsPg.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -113,7 +113,7 @@ small {
     mission format
 ======================*/
 #mission {
-    background-image: url("../_imgs/arrowBg01.png");
+    background-image: url("../imgs/arrowBg01.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -133,7 +133,7 @@ small {
     lets Talkformat
 =======================*/
 #letsTalk {
-    background-image: url("../_imgs/talk.png");
+    background-image: url("../imgs/talk.png");
     background-size: cover;
     background-position: center;
     height: 750px;
@@ -166,7 +166,7 @@ small {
     contacts format
 ========================*/
 #contacts {
-    background-image: url("../_imgs/RectangleBlue.png");
+    background-image: url("../imgs/RectangleBlue.png");
     /*    background-image: url("../_imgs/mail.png");*/
     background-size: cover;
     background-position: center;
@@ -360,7 +360,7 @@ footer {
 
     #help,
     #banner {
-        background-image: url("../_imgs/RectangleBlue.png");
+        background-image: url("../imgs/RectangleBlue.png");
         background-size: cover;
         background-position: center;
         width: 100%;
