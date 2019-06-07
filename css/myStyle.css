@@ -24,7 +24,7 @@ h1{
 =====================*/
 
 #banner {
-    background-image: url(../imgs/header.png);
+    background-image: url("../imgs/header.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
